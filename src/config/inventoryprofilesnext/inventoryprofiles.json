@@ -1,0 +1,14 @@
+{
+    "ModSettings": {
+        "sort_order": "CUSTOM",
+        "highlight_foused_items": {
+            "value": false
+        },
+        "first_run": false
+    },
+    "LockedSlotsSettings": {
+        "locked_slots_empty_hotbar_as_semi_locked": {
+            "value": false
+        }
+    }
+}

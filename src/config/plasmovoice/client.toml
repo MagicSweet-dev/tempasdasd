@@ -1,0 +1,103 @@
+debug = false
+disable_crowdin = false
+check_for_updates = false
+
+[[key_bindings]]
+name = "key.plasmovoice.proximity.ptt"
+any_context = true
+category = "hidden"
+
+[[key_bindings.keys]]
+code = 296
+type = "KEYSYM"
+
+[[key_bindings]]
+name = "key.plasmovoice.groups.ptt"
+any_context = true
+category = "hidden"
+
+[[key_bindings.keys]]
+code = 66
+type = "KEYSYM"
+
+
+
+[voice]
+disabled = false
+microphone_disabled = false
+activation_threshold = -30.0
+input_device = ""
+output_device = ""
+use_javax_input = false
+microphone_volume = 1.0
+noise_suppression = false
+volume = 1.0
+compressor_limiter = true
+sound_occlusion = false
+directional_sources = false
+hrtf = false
+stereo_capture = false
+
+[voice.volumes.source_ccf04dd6-b572-4493-a812-d334367c8c56]
+volume = 1.0
+[voice.volumes.source_1e2fc109-54f9-4cf6-8c9e-ddadf98160be]
+volume = 1.0
+[voice.volumes.source_10cf0835-9458-4038-8ba7-65b0613a79ab]
+volume = 1.0
+[voice.volumes.source_a342b9fb-a5b6-3a92-935b-e2f651c53857]
+volume = 1.0
+[voice.volumes.source_2bed5813-37b4-3b59-bad8-30f49fc3bdf6]
+volume = 1.0
+[voice.volumes.source_c056eaa6-8ae3-45b2-8e84-2eb0e83b8205]
+volume = 1.0
+[voice.volumes.source_90b2effe-fe89-4105-8a9f-fd1cc5069b8a]
+volume = 1.0
+[voice.volumes.groups]
+volume = 1.0
+[voice.volumes.source_bae43a34-ab3a-3257-9c85-478e9c2e2b77]
+volume = 1.0
+[voice.volumes.source_f235eda7-5d50-3ebe-b19a-725ba7e134b1]
+volume = 1.0
+[voice.volumes.source_b94a0127-78cb-4782-ab08-6a3d9b72d44c]
+volume = 1.0
+[voice.volumes.proximity]
+volume = 1.0
+[voice.volumes.source_28b95cdb-3f89-3da7-86e3-08bc18c37191]
+volume = 1.0
+[voice.volumes.source_6c2625e7-def3-46cd-8100-319439d475f7]
+volume = 1.0
+[voice.volumes.source_ddce2771-e0f5-4ea9-bd50-2c858e34ad06]
+volume = 1.0
+[voice.volumes.source_8a4def59-c683-4d70-ad76-ef0ee8b47fa1]
+volume = 1.0
+[voice.volumes.source_816a2872-9261-48f9-beaa-c2a9d4fd109e]
+volume = 1.0
+[voice.volumes.source_b890fe77-725a-4a2d-acd5-f372ea8dc5c0]
+volume = 1.0
+[voice.volumes.source_5f3fb954-96b8-4987-9485-63e40c901478]
+volume = 1.0
+
+[advanced]
+visualize_voice_distance = true
+visualize_voice_distance_on_join = false
+compressor_threshold = -10
+limiter_threshold = -6
+directional_sources_angle = 145
+stereo_sources_to_mono = false
+panning = true
+camera_sound_listener = true
+exponential_volume_slider = true
+exponential_distance_gain = true
+
+[overlay]
+show_activation_icon = true
+activation_icon_position = "BOTTOM_CENTER"
+show_source_icons = 0
+show_static_source_icons = true
+overlay_enabled = true
+overlay_position = "TOP_LEFT"
+overlay_style = "NAME_SKIN"
+
+[overlay.source_states]
+proximity = "OFF"
+groups = "WHEN_TALKING"

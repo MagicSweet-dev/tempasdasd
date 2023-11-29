@@ -1,0 +1,23 @@
+{
+  "demandOnClient": true,
+  "demandOnServer": false,
+  "enableDebugLog": false,
+  "convertToGameMessage": false,
+  "showServerSafety": true,
+  "hideRedChatIndicators": true,
+  "hideYellowChatIndicators": true,
+  "hideGrayChatIndicators": true,
+  "hideWarningToast": false,
+  "alwaysHideReportButton": false,
+  "disableTelemetry": true,
+  "showReloadButton": false,
+  "whitelistAllServers": false,
+  "whitelistedServers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "104.238.152.103:25577"
+  ]
+}

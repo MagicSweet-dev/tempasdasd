@@ -1,0 +1,22 @@
+{
+  "servers": {
+    "play.pixland.ru:25565": {
+      "forcedProtocol": 757
+    },
+    "mc.oristar.space:25565": {
+      "forcedProtocol": 756
+    },
+    "mc.oristar.space:25600": {
+      "forcedProtocol": -1
+    },
+    "play.cubecraft.net:25565": {
+      "forcedProtocol": -1
+    },
+    "localhost:25565": {
+      "forcedProtocol": -1
+    },
+    "185.212.129.184:25600": {
+      "forcedProtocol": -1
+    }
+  }
+}
