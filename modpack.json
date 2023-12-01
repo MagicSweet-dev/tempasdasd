@@ -12,6 +12,10 @@
     ],
     "exclude" : [ ]
   },
+  "loader": {
+    "type": "quilt",
+    "version": "0.22.0"
+  },
   "launch" : {
     "flags" : [
       "-Dfml.ignoreInvalidMinecraftCertificates=true"
